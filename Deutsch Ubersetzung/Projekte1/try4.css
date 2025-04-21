@@ -1,0 +1,63 @@
+body {
+ font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f0f0f0;
+      color: #333;
+    }
+    header {    
+      background: #222;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    section {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    h1, h2 {
+      color: #222;
+    }
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+    .contenedor-imagenesfigure {
+        display: flex;
+        justify-content: center; /* O space-between, o start, como quieras */
+        gap: 10px; /* Espacio entre imágenes */
+        flex-wrap: wrap; /* Para que en pantallas pequeñas no explote */
+        margin-top: 10px;
+      }
+      
+      .imagenCesar {
+        max-width: 30%; /* Ajusta según tu gusto de artista */
+        height: auto;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+      
+  .imagenDerecha {
+      padding-right: 10em;
+     
+      padding-left: 3em;
+      width: 25%;
+      float: right;
+  }
+
+  .Deutschsprache {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 999;
+}
+
+.EnglishTranslation {
+  position: absolute;
+  top: 10px;
+  right: 90px;
+  z-index: 999;
+}
